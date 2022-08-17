@@ -70,4 +70,6 @@ a i::before
 a:hover i::before
 {
   left: 0%;
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: 40px 40px var(--clr);
 }
